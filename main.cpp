@@ -98,6 +98,9 @@ int main() {
 					case sf::Keyboard::R:
 						nodes.clear();
 						break;
+					case sf::Keyboard::Escape:
+						window.close();
+						break;
 				}
 				drawAll(nodes, withSupportLines, withControlPoints);
 			}
